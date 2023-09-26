@@ -26,13 +26,13 @@ public class Car extends Vehicle {
         this.isManual=isManual;
         this.type=type;
         this.seats=seats;
-        currentGear=1;
+        this.currentGear=1;
         //Hint: Car extends Vehicle
     }
-    public Car(String name,boolean isManual){
-        super(name);
-        this.isManual=isManual;
-    }
+//    public Car(String name,boolean isManual){
+//        super(name);
+//        this.isManual=isManual;
+//    }
 
     public void changeGear(int newGear){
         this.currentGear=newGear;
